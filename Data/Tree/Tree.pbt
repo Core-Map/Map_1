@@ -28,6 +28,7 @@ Objects {
   ChildIds: 16424518052359129137
   ChildIds: 15395380174840374041
   ChildIds: 13141811597538671953
+  ChildIds: 12709673926940252404
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,40 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12709673926940252404
+  Name: "Bonfire"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8935847399440265160
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Bonfire"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19027.6836
+            Y: 17882.9609
+            Z: -37.9434814
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10524907479618218618
+    }
   }
 }
 Objects {
