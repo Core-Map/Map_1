@@ -8,29 +8,38 @@
   }
 }
 Assets {
-  Id: 6450727864704130020
-  Name: "Fantasy Castle Wall 03 Half - Window 02"
+  Id: 17300304969013564511
+  Name: "Whitebox Window Insert - Arch Top"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_wall_half_003_win_02"
+    AssetId: "sm_ts_gen_whitebox_winInsert_001_archTop"
   }
 }
 Assets {
-  Id: 5039051833507134363
-  Name: "Castle Part - Window 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_part_window_002_ref"
-  }
-}
-Assets {
-  Id: 2723232960546970913
-  Name: "Wood Floor Dark"
+  Id: 16882780096154193345
+  Name: "Frosted Glass No Distortion"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_floor_dark_001_uv"
+    AssetId: "fxma_frosted_glass_nodistortion"
+  }
+}
+Assets {
+  Id: 11193898931303947221
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
+  Id: 10759813709920562531
+  Name: "Whitebox Wall 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_half"
   }
 }

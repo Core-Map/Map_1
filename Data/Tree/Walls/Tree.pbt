@@ -1084,7 +1084,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Window"
+    FilePartitionName: "Window_12"
   }
 }
 Objects {
@@ -1113,7 +1113,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Window_2"
+    FilePartitionName: "Window_13"
   }
 }
 Objects {
@@ -1143,7 +1143,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Window_3"
+    FilePartitionName: "Window_14"
   }
 }
 Objects {
@@ -1173,7 +1173,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Window_1"
+    FilePartitionName: "Window_15"
   }
 }
 Objects {
