@@ -1,0 +1,83 @@
+﻿MetaVersion: 1
+MarketplaceDetails {
+  Id: "d1365e800a194a0ab34f2e8ed3f74549"
+  OwnerAccountId: "e8e9fff8a33e402bb51f8a8dc44b053c"
+  OwnerName: "justinmcintyre911"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1867061287068609763
+  value: 16759615684059797170
+}
+AssetIdsOriginalToNew {
+  key: 2761708876385103601
+  value: 12349742882413071578
+}
+AssetIdsOriginalToNew {
+  key: 3683402316195666025
+  value: 15725974426677173489
+}
+AssetIdsOriginalToNew {
+  key: 3843475521989789834
+  value: 2529277717318172847
+}
+AssetIdsOriginalToNew {
+  key: 5285365273059775439
+  value: 5463579296949470294
+}
+AssetIdsOriginalToNew {
+  key: 5515264805878815599
+  value: 9041728650864287353
+}
+AssetIdsOriginalToNew {
+  key: 6034151158837756529
+  value: 17245477650593993727
+}
+AssetIdsOriginalToNew {
+  key: 7594151042252008067
+  value: 4943287343618839523
+}
+AssetIdsOriginalToNew {
+  key: 8114516110403046350
+  value: 3304705363903226710
+}
+AssetIdsOriginalToNew {
+  key: 8147542797803218652
+  value: 7114373938459106933
+}
+AssetIdsOriginalToNew {
+  key: 9193572751091183069
+  value: 9834355076709220601
+}
+AssetIdsOriginalToNew {
+  key: 10628527758137556380
+  value: 2349640286750947645
+}
+AssetIdsOriginalToNew {
+  key: 11044852738858303871
+  value: 7883739400653308393
+}
+AssetIdsOriginalToNew {
+  key: 11369348695389038376
+  value: 4760761682460610349
+}
+AssetIdsOriginalToNew {
+  key: 12655228235441350872
+  value: 16902913530065751932
+}
+AssetIdsOriginalToNew {
+  key: 13266231264368842432
+  value: 11127817755578440868
+}
+AssetIdsOriginalToNew {
+  key: 13496864529251534240
+  value: 3553863185464710747
+}
+AssetIdsOriginalToNew {
+  key: 14673240035990503834
+  value: 14559080710392320324
+}
+AssetIdsOriginalToNew {
+  key: 16687057333077290544
+  value: 3006539373978720936
+}
