@@ -1,29 +1,199 @@
 ﻿Name: "Stairs"
-RootId: 12659997020010679462
+RootId: 7348288949924245132
 Objects {
-  Id: 8864770373260898197
-  Name: "Whitebox Stairs 01 U"
+  Id: 12052460428942025043
+  Name: "Fantasy Castle Pillar 02 - Mid"
   Transform {
     Location {
-      X: 3.61816406
-      Y: 9.3125
-      Z: -117.250854
+      X: 392.857178
+      Y: 935.714661
+      Z: 1042.8573
     }
     Rotation {
-      Yaw: -89.9999847
     }
     Scale {
-      X: -1
-      Y: 1
-      Z: 1
+      X: 0.571428657
+      Y: 0.571428657
+      Z: 0.571428657
     }
   }
-  ParentId: 12659997020010679462
+  ParentId: 7348288949924245132
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 11193898931303947221
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.429999948
+        G: 0.170860916
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18033297229984528543
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim2:id"
+      AssetReference {
+        Id: 11193898931303947221
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim2:color"
+      Color {
+        R: 0.429999948
+        G: 0.170860916
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10914354925542967262
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12052460428942025043
+    SubobjectId: 12620297504155220310
+    InstanceId: 13141811597538671953
+    TemplateId: 14857502955324910790
+  }
+}
+Objects {
+  Id: 2784249306085002897
+  Name: "Fantasy Castle Pillar 02 - Mid"
+  Transform {
+    Location {
+      X: 392.857178
+      Y: 21.4285736
+      Z: 207.142883
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.571428657
+      Y: 0.571428657
+      Z: 0.571428657
+    }
+  }
+  ParentId: 7348288949924245132
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18033297229984528543
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim2:id"
+      AssetReference {
+        Id: 11193898931303947221
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 11193898931303947221
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.429999948
+        G: 0.170860916
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim2:color"
+      Color {
+        R: 0.429999948
+        G: 0.170860916
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10914354925542967262
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2784249306085002897
+    SubobjectId: 3370133636097644180
+    InstanceId: 13141811597538671953
+    TemplateId: 14857502955324910790
+  }
+}
+Objects {
+  Id: 9420427116652978592
+  Name: "Whitebox Stairs 01 Straight"
+  Transform {
+    Location {
+      X: 157.142822
+      Y: 14.2856445
+      Z: 57.1428223
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.571428657
+      Y: -1.14285731
+      Z: 1.42857158
+    }
+  }
+  ParentId: 7348288949924245132
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 18033297229984528543
+        Id: 11193898931303947221
       }
     }
     Overrides {
@@ -35,18 +205,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail2:color"
       Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
+        R: 0.429999948
+        G: 0.170860916
         A: 1
       }
     }
@@ -59,7 +219,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 12614788832107397809
+      Id: 6316555695212920512
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -71,27 +231,40 @@ Objects {
       }
     }
   }
+  InstanceHistory {
+    SelfId: 9420427116652978592
+    SubobjectId: 10005496287315622309
+    InstanceId: 13141811597538671953
+    TemplateId: 14857502955324910790
+  }
 }
 Objects {
-  Id: 464074808426840515
-  Name: "Craftsman Porch Fence Railing 01"
+  Id: 8645730493446568494
+  Name: "Sci-fi Base Railing 02 Stairs"
   Transform {
     Location {
-      X: -411.361328
-      Y: 397.072754
-      Z: 209.47287
+      X: 392.857178
+      Y: 42.8571472
+      Z: 135.714294
     }
     Rotation {
-      Pitch: -34.9999924
+      Yaw: 179.999756
+      Roll: -4.99997234
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.42857158
+      Y: 1.00000012
+      Z: 1.42857158
     }
   }
-  ParentId: 12659997020010679462
+  ParentId: 7348288949924245132
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11193898931303947221
+      }
+    }
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
@@ -99,168 +272,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Building_Accent:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Accent:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11390981272720591546
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14105447571532919550
-  Name: "Craftsman Porch Fence Railing 01"
-  Transform {
-    Location {
-      X: -804.271484
-      Y: 397.072754
-      Z: 204.520874
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12659997020010679462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Accent:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Accent:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11390981272720591546
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8169052393359449827
-  Name: "Wood 2x4 4m"
-  Transform {
-    Location {
-      X: -511.113281
-      Y: 409.336914
-      Z: 312.719666
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.5
-      Y: 0.6
-      Z: 0.6
-    }
-  }
-  ParentId: 12659997020010679462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
+        R: 0.429999948
+        G: 0.170860916
         A: 1
       }
     }
@@ -273,7 +288,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 12003399093741216987
+      Id: 17274499622700165278
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -285,335 +300,10 @@ Objects {
       }
     }
   }
-}
-Objects {
-  Id: 16999758215411092646
-  Name: "Wood 2x4 4m"
-  Transform {
-    Location {
-      X: -402.760742
-      Y: 7.84570313
-      Z: 201.358978
-    }
-    Rotation {
-      Pitch: 90
-    }
-    Scale {
-      X: 0.5
-      Y: 0.6
-      Z: 0.5
-    }
-  }
-  ParentId: 12659997020010679462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12003399093741216987
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7859630893992853176
-  Name: "Wood 2x4 4m"
-  Transform {
-    Location {
-      X: -374.186523
-      Y: 409.148438
-      Z: 316.252441
-    }
-    Rotation {
-      Pitch: -34.9999924
-    }
-    Scale {
-      X: 0.5
-      Y: 0.6
-      Z: 0.6
-    }
-  }
-  ParentId: 12659997020010679462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12003399093741216987
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7838436380591810074
-  Name: "Craftsman Porch Fence Railing 01"
-  Transform {
-    Location {
-      X: -18.2626953
-      Y: -4.56152344
-      Z: 478.611389
-    }
-    Rotation {
-      Pitch: -34.9999924
-      Yaw: -179.999954
-      Roll: 9.93981373e-13
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12659997020010679462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Accent:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Accent:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11390981272720591546
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 1968428303154802049
-  Name: "Wood 2x4 4m"
-  Transform {
-    Location {
-      X: -88.3398438
-      Y: 7.86474609
-      Z: 566.951721
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.2
-      Y: 0.6
-      Z: 0.6
-    }
-  }
-  ParentId: 12659997020010679462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12003399093741216987
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 1277414997544692403
-  Name: "Wood 2x4 4m"
-  Transform {
-    Location {
-      X: -412.854492
-      Y: 406.960449
-      Z: 180.362061
-    }
-    Rotation {
-      Pitch: 70
-    }
-    Scale {
-      X: 0.5
-      Y: 0.3
-      Z: 0.4
-    }
-  }
-  ParentId: 12659997020010679462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18033297229984528543
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.364583343
-        G: 0.364583343
-        B: 0.364583343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12003399093741216987
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
+  InstanceHistory {
+    SelfId: 8645730493446568494
+    SubobjectId: 9195632741797077547
+    InstanceId: 13141811597538671953
+    TemplateId: 14857502955324910790
   }
 }

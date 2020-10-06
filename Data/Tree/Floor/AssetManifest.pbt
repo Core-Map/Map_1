@@ -1,10 +1,10 @@
 ﻿Assets {
-  Id: 18033297229984528543
-  Name: "Wood Planks Dark"
+  Id: 11095609616985680535
+  Name: "Wood Floor Light"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_planks_dark_001_uv"
+    AssetId: "mi_wood_floor_light_001_uv"
   }
 }
 Assets {

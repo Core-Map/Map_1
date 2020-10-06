@@ -1,39 +1,108 @@
 ﻿Name: "Window"
-RootId: 4330954103880638868
+RootId: 3885434679214005942
 Objects {
-  Id: 10558888414701290905
-  Name: "Fantasy Castle Wall 03 Half - Window 02"
+  Id: 11117764556812198736
+  Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      Y: -0.1796875
+      X: -6.25
+      Y: 87.5
+      Z: 12.5
     }
     Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90
-      Roll: 1.22189831e-05
+      Yaw: -89.9997559
     }
     Scale {
-      X: 0.8
-      Y: 1
-      Z: 0.8
+      X: 0.4375
+      Y: 0.625
+      Z: 0.475
     }
   }
-  ParentId: 4330954103880638868
+  ParentId: 3885434679214005942
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 2723232960546970913
+        Id: 16882780096154193345
       }
     }
     Overrides {
-      Name: "ma:Shared_TrimOuter:id"
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 2723232960546970913
+        Id: 16882780096154193345
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10759813709920562531
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11117764556812198736
+    SubobjectId: 10532941669447842645
+    InstanceId: 13141811597538671953
+    TemplateId: 14857502955324910790
+  }
+}
+Objects {
+  Id: 17355759988168247210
+  Name: "Whitebox Window Insert - Arch Top"
+  Transform {
+    Location {
+      Y: 100.000008
+      Z: 6.25000048
+    }
+    Rotation {
+      Yaw: -89.9998779
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3885434679214005942
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.429999948
+        G: 0.170860916
+        A: 1
       }
     }
     Overrides {
-      Name: "ma:Building_WallOuter:id"
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.429999948
+        G: 0.170860916
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 11193898931303947221
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
       AssetReference {
         Id: 18033297229984528543
       }
@@ -47,7 +116,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6450727864704130020
+      Id: 17300304969013564511
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -60,57 +129,9 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 11362971457147706192
-    SubobjectId: 17815043144500023422
-    InstanceId: 4476449586101804300
-    TemplateId: 2172272135275888371
-  }
-}
-Objects {
-  Id: 6679865873029383828
-  Name: "Castle Part - Window 02"
-  Transform {
-    Location {
-      X: 2.15234375
-      Y: 161.734375
-      Z: 2.15436172
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 89.7991867
-      Roll: 1.22189849e-05
-    }
-    Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.8
-    }
-  }
-  ParentId: 4330954103880638868
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5039051833507134363
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 3477733514121038729
-    SubobjectId: 6541963586900082855
-    InstanceId: 4476449586101804300
-    TemplateId: 2172272135275888371
+    SelfId: 17355759988168247210
+    SubobjectId: 17922838399146123183
+    InstanceId: 13141811597538671953
+    TemplateId: 14857502955324910790
   }
 }
