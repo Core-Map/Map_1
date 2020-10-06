@@ -29,6 +29,7 @@ Objects {
   ChildIds: 15395380174840374041
   ChildIds: 13141811597538671953
   ChildIds: 10521750307164830148
+  ChildIds: 7746761034204523433
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +39,46 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 7746761034204523433
+  Name: "Craftsman Stairs 01 Base"
+  Transform {
+    Location {
+      X: 18320
+      Y: 6805
+      Z: -930
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2775895945773230606
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -96,15 +137,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 18770
+            X: 18805
             Y: 5605
-            Z: -1245
+            Z: -793
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -179.999969
+            Yaw: -179.999954
           }
         }
       }
