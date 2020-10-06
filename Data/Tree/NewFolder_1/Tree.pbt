@@ -1,13 +1,12 @@
 ﻿Name: "NewFolder_1"
-RootId: 5423271248747049371
+RootId: 1258905498764438571
 Objects {
-  Id: 8623784231957721303
+  Id: 4603809686628471856
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: -6.83018834e-06
     }
     Scale {
       X: 0.5
@@ -15,7 +14,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5423271248747049371
+  ParentId: 1258905498764438571
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -58,15 +57,15 @@ Objects {
   }
 }
 Objects {
-  Id: 6215834440836368144
+  Id: 361553489973862546
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
     }
     Rotation {
       Pitch: -3.4150944e-05
-      Yaw: 179.999512
-      Roll: 2.98827854e-06
+      Yaw: 179.999496
+      Roll: 2.98827831e-06
     }
     Scale {
       X: 0.5
@@ -74,7 +73,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5423271248747049371
+  ParentId: 1258905498764438571
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
