@@ -27,6 +27,7 @@ Objects {
   ChildIds: 1795182104747999031
   ChildIds: 16424518052359129137
   ChildIds: 15395380174840374041
+  ChildIds: 13141811597538671953
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +37,46 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13141811597538671953
+  Name: "Large_Ship"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7764570080591445633
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Large_Ship"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 18770
+            Y: 5605
+            Z: -1245
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14857502955324910790
+    }
   }
 }
 Objects {
