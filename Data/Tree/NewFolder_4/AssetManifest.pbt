@@ -1,18 +1,18 @@
 ﻿Assets {
-  Id: 14844672563279110931
-  Name: "Bricks Worn Stone 01"
+  Id: 18033297229984528543
+  Name: "Wood Planks Dark"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_worn_001"
+    AssetId: "mi_wood_planks_dark_001_uv"
   }
 }
 Assets {
-  Id: 11668008578280099839
-  Name: "Whitebox Wall 01 Corner"
+  Id: 2203233864679721587
+  Name: "Whitebox Wall 01 Triangle"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_corner"
+    AssetId: "sm_ts_gen_whitebox_wall_001_tri"
   }
 }

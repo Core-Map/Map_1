@@ -1,7 +1,7 @@
 ﻿Name: "NewFolder_6"
-RootId: 15067550198995625105
+RootId: 7008449434700318457
 Objects {
-  Id: 17281066463742843824
+  Id: 2505739502833610382
   Name: "Whitebox Wall 01 Corner"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15067550198995625105
+  ParentId: 7008449434700318457
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -47,7 +47,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17968688492353631707
+  Id: 3190333677857856196
   Name: "Whitebox Wall 01 Corner"
   Transform {
     Location {
@@ -65,7 +65,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15067550198995625105
+  ParentId: 7008449434700318457
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -96,7 +96,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11816930718103317402
+  Id: 14691136448012258108
   Name: "Whitebox Wall 01 Corner"
   Transform {
     Location {
@@ -113,7 +113,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15067550198995625105
+  ParentId: 7008449434700318457
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
