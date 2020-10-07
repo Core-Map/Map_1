@@ -69,6 +69,27 @@
           Id: 14643090495247569259
         }
       }
+      Overrides {
+        Name: "cmp:Material3"
+        AssetReference {
+          Id: 12849863538137243875
+        }
+      }
+      Overrides {
+        Name: "cmp:Material3_Sides"
+        AssetReference {
+          Id: 12849863538137243875
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material3_Sides"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 15903534773131070733
@@ -113,6 +134,24 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "dirt_001"
+      }
+    }
+    Assets {
+      Id: 12849863538137243875
+      Name: "Cliff 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_cliff_001_uv"
+      }
+    }
+    Assets {
+      Id: 12849863538137243875
+      Name: "Cliff 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_cliff_001_uv"
       }
     }
   }
