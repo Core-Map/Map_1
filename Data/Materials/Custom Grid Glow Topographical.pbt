@@ -52,7 +52,7 @@
       }
       Overrides {
         Name: "emissive_boost_accent"
-        Float: 74.9504776
+        Float: 100
       }
       Overrides {
         Name: "emissive_boost_color-2"
