@@ -1250,6 +1250,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7384360458153224723
+  Name: "Flower Bellflower Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
+  }
+}
+Assets {
   Id: 7326834397962987481
   Name: "Craftsman Roof 01 Cap"
   PlatformAssetType: 1
