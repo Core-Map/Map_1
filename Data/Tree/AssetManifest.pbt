@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17073572656878249838
+  Name: "Coral Table 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_table_02"
+  }
+}
+Assets {
   Id: 16964117855639857004
   Name: "Decal Spray Manticore 01"
   PlatformAssetType: 14
@@ -413,6 +422,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14319639523658202036
+  Name: "Coral Spikes Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_spike_big_01"
+  }
+}
+Assets {
   Id: 14265726385927418716
   Name: "Fantasy Castle Trim - Battlement 01 4m"
   PlatformAssetType: 1
@@ -428,6 +446,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_raw_white_001_uv"
+  }
+}
+Assets {
+  Id: 14101024064314146605
+  Name: "Glow Shape Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_glow"
   }
 }
 Assets {
@@ -1256,6 +1283,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_stairs_spiral_trim_001_sm"
+  }
+}
+Assets {
+  Id: 6937622142081634485
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
   }
 }
 Assets {
