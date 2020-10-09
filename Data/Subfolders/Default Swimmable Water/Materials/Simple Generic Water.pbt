@@ -22,6 +22,36 @@
         Name: "wind speed"
         Float: 0.245783448
       }
+      Overrides {
+        Name: "shallow color"
+        Color {
+          G: 0.05
+          B: 0.04
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "deep color"
+        Color {
+          R: 0.01237
+          G: 0.0625
+          B: 0.039191
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "emissive"
+        Float: 0
+      }
+      Overrides {
+        Name: "foam color"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 3627032956109716191

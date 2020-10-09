@@ -15,8 +15,7 @@
       Overrides {
         Name: "flow direction"
         Vector {
-          X: 1
-          Z: 1
+          Y: 4800
         }
       }
       Overrides {
