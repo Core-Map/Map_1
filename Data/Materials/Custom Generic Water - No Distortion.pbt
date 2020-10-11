@@ -10,6 +10,7 @@
         Name: "wind direction"
         Vector {
           X: 1
+          Z: 1
         }
       }
       Overrides {
@@ -29,6 +30,18 @@
       Overrides {
         Name: "emissive"
         Float: 10
+      }
+      Overrides {
+        Name: "opacity distance"
+        Float: 100
+      }
+      Overrides {
+        Name: "u_tiles"
+        Float: 1
+      }
+      Overrides {
+        Name: "object displacement amount"
+        Float: 1
       }
     }
     Assets {
