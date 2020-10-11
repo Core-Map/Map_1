@@ -108,7 +108,7 @@
       }
       Overrides {
         Name: "speed"
-        Float: 0.663613319
+        Float: 0.25
       }
       Overrides {
         Name: "wind speed"

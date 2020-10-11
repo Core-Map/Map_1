@@ -8,7 +8,7 @@
     ParameterOverrides {
       Overrides {
         Name: "foamfademin"
-        Float: 0.666524053
+        Float: 0.600534499
       }
       Overrides {
         Name: "bottombreakupmin"
@@ -93,7 +93,11 @@
       }
       Overrides {
         Name: "foamfademax"
-        Float: 0.709375083
+        Float: 1
+      }
+      Overrides {
+        Name: "edge foam brightness"
+        Float: 1
       }
     }
     Assets {

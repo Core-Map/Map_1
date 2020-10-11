@@ -404,6 +404,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15043578756140426212
+  Name: "Tree Oak 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_001"
+  }
+}
+Assets {
   Id: 14871311605744414142
   Name: "Ellipsoid - Truncated"
   PlatformAssetType: 1
