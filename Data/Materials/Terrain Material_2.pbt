@@ -30,13 +30,13 @@
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 1521964822269528289
+          Id: 10186473141480267243
         }
       }
       Overrides {
         Name: "cmp:Material2_Sides"
         AssetReference {
-          Id: 1521964822269528289
+          Id: 12849863538137243875
         }
       }
       Overrides {
@@ -51,9 +51,8 @@
       Overrides {
         Name: "cmpc:Material2"
         Color {
-          R: 0.526041687
-          G: 0.526041687
-          B: 0.526041687
+          R: 0.9
+          B: 0.840397
           A: 1
         }
       }
@@ -101,21 +100,21 @@
       }
     }
     Assets {
-      Id: 1521964822269528289
-      Name: "Cliff 03"
+      Id: 10186473141480267243
+      Name: "Grass and Soil"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "cliff_003"
+        AssetId: "mi_grass_003_uv"
       }
     }
     Assets {
-      Id: 1521964822269528289
-      Name: "Cliff 03"
+      Id: 12849863538137243875
+      Name: "Cliff 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "cliff_003"
+        AssetId: "mi_cliff_001_uv"
       }
     }
     Assets {
