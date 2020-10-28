@@ -494,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14384953621685186280
+  Name: "Whitebox Roof 01 Peak"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_roof_001_peak"
+  }
+}
+Assets {
   Id: 14324138183023436972
   Name: "Fantasy Castle Wall 01 - Curved Doorway"
   PlatformAssetType: 1
