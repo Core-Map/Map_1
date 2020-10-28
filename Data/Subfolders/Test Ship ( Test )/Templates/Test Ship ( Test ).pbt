@@ -34,10 +34,6 @@
     }
   }
   Marketplace {
-    Id: "fd16320d672d4ff0be30275bfc2356ac"
-    OwnerAccountId: "8e3b15671845409e933f6b6ca11d9114"
-    OwnerName: "zeitzocker"
-    Version: "1.0.0"
     Description: "unfinished Ship not useable\r\n- Test for ( H&C) game \r\n- size check"
   }
   SerializationVersion: 65
